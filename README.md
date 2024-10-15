@@ -35,3 +35,10 @@ which contains definitions that override existing definitions in
 and file names in the `common-definitions` repository. Files and subfolders
 outside of `common-definitions-overrides` are additional definitions that are
 not present in `common-definitions`.
+
+The `main` branch of this repository is the master version of the recommended
+names and mappings for use in IAM COMPACT. The GUI validation app/web app (at
+[https://github.com/ciceroOslo/iamcompact-validation-ui](https://github.com/ciceroOslo/iamcompact-validation-ui))
+uses definitions from the branch `validation-ui`. This branch is usually kept in
+sync with `main`, but may differ or be delayed in the case of technical issues
+arising from newly added definitions.
