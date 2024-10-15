@@ -1,2 +1,35 @@
 # iamcompact-nomenclature-definitions
 Nomenclature definitions for iamcompact-nomenclature (additions or overrides to common-definitions)
+
+
+## Purpose and connection with other repositories
+
+This repository contains codelists for the IAM COMPACT project that are
+compatible with the `nomenclature-iamc` Python package. It is used by the
+packages `iamcompact-nomenclature` and `iamcompact-validation-ui` for validating
+model, scenario, variable and region names and units, and for defining
+aggregation mappings between regions.
+
+Definitions of variables in this repository come in addition to or override ones
+given in the `common-definitions` repository. Definitions from
+`common-definitions` are stored in a fork of the
+[official common-definitions repository](https://github.com/IAMconsortium/common-definitions),
+and taken from the branches `iamcompact-definitions-main` and
+`iamcompact-validation-ui`. These are generally kept up to date with the main
+branch of `common-definitions`, but may be frozen at some point, or may be kept
+back for testing or in the case of compatibility issues that arise with new
+changes.
+
+
+## Organization
+
+Codelist definitions are stored in the `/definitions/` folder, and region
+mappings in the `/mappings/` folder, like for any `nomenclature` definitions
+repository.
+
+Each of these folders contain a subfolder named `common-definitions-overrides`,
+which contains definitions that override existing definitions in
+`common-definitions`. These subfolders generally mirror the subfolder structures
+and file names in the `common-definitions` repository. Files and subfolders
+outside of `common-definitions-overrides` are additional definitions that are
+not present in `common-definitions`.
