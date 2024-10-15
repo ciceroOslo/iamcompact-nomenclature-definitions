@@ -12,13 +12,15 @@ aggregation mappings between regions.
 
 Definitions of variables in this repository come in addition to or override ones
 given in the `common-definitions` repository. Definitions from
-`common-definitions` are stored in a fork of the
-[official common-definitions repository](https://github.com/IAMconsortium/common-definitions),
-and taken from the branches `iamcompact-definitions-main` and
-`iamcompact-validation-ui`. These are generally kept up to date with the main
-branch of `common-definitions`, but may be frozen at some point, or may be kept
-back for testing or in the case of compatibility issues that arise with new
-changes.
+`common-definitions` are stored in a fork of the official `common-definitions`
+repository, at [https://github.com/ciceroOslo/common-definitions/](https://github.com/ciceroOslo/common-definitions/)
+(the official repo is at
+[https://github.com/IAMconsortium/common-definitions](https://github.com/IAMconsortium/common-definitions)).
+The definitions used in IAM COMPACT are taken from the branches
+`iamcompact-definitions-main` and `iamcompact-validation-ui`. These are
+generally kept up to date with the main branch of `common-definitions`, but may
+be frozen at some point, or may be kept back for testing or in the case of
+compatibility issues that arise with new changes.
 
 
 ## Organization
