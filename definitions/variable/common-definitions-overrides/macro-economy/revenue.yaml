@@ -1,0 +1,8 @@
+# Overrides in IAM COMPACT
+#
+# Variables for revenue for government. Further new variables for IAM COMPACT
+# are defined in the main directory tree
+
+- Revenue|Government:
+    description: Total government revenue
+    unit: [billion EUR_2017/yr, billion USD_2017/yr]
