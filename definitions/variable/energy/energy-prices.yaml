@@ -56,18 +56,6 @@
     unit: [EUR_2017/GJ, USD_2017/GJ, EUR_2017/kWh]
     weight: Final Energy|Residential and Commercial|{Secondary Fuel}
 
-- Price|Final Energy|Residential and Commercial|Residential|{Secondary Fuel}:
-    description: price at the final level in the residential sector of {Secondary Fuel}. 
-    notes: Prices should include the effect of carbon prices and all other taxes.
-    unit: [EUR_2017/GJ, USD_2017/GJ, EUR_2017/kWh]
-    weight: Final Energy|Residential and Commercial|Residential|{Secondary Fuel}
-
-- Price|Final Energy|Residential and Commercial|Commercial|{Secondary Fuel}:
-    description: price at the final level in the commercial sector of {Secondary Fuel}. 
-    notes: Prices should include the effect of carbon prices and all other taxes.
-    unit: [EUR_2017/GJ, USD_2017/GJ, EUR_2017/kWh]
-    weight: Final Energy|Residential and Commercial|Commercial|{Secondary Fuel}
-
 - Price|Final Energy|Electricity:
     description: average price at the final level of Electricity. 
     notes: Prices should include the effect of carbon prices and all other taxes.
