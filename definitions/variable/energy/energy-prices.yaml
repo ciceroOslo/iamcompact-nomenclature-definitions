@@ -86,18 +86,6 @@
     unit: [EUR_2017/GJ, USD_2017/GJ, EUR_2017/kWh]
     weight: Final Energy|Residential and Commercial|Electricity
 
-- Price|Final Energy|Residential and Commercial|Residential|Electricity:
-    description: price at the final level in the residential sector of Electricity. 
-    notes: Prices should include the effect of carbon prices and all other taxes.
-    unit: [EUR_2017/GJ, USD_2017/GJ, EUR_2017/kWh]
-    weight: Final Energy|Residential and Commercial|Residential|Electricity
-
-- Price|Final Energy|Residential and Commercial|Commercial|Electricity:
-    description: price at the final level in the commercial sector of Electricity. 
-    notes: Prices should include the effect of carbon prices and all other taxes.
-    unit: [EUR_2017/GJ, USD_2017/GJ, EUR_2017/kWh]
-    weight: Final Energy|Residential and Commercial|Commercial|Electricity
-
 # Prices at the secondary-energy level
 - Price|Secondary Energy|Electricity:
     description: Electricity price at the wholesale-market level, e.g. spot market price
