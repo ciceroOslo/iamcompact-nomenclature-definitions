@@ -1,5 +1,3 @@
 # Sectoral models used in the IAM COMPACT modelling studies
 - WISEE EDM-I Steel 1.0:
     description: "The WISEE-EDM global steel model, investment module, version 1.0"
-- REFRESH:
-    description: "A model name used to test that the app does not cache old definitions forever."
