@@ -1,0 +1,9 @@
+model:
+  - WISEE EDM-I Steel 1.0
+
+native_regions:
+  - EU27: European Union
+
+common_regions:
+  - European Union (R9):
+    - EU27
